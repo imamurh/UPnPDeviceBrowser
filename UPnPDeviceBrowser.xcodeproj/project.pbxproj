@@ -1,0 +1,414 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A7EDA9E31F4F54107347133B /* Pods_UPnPDeviceBrowser.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3D0287C5C6FA291CDF50EB0 /* Pods_UPnPDeviceBrowser.framework */; };
+		EFFA02762004DB3B005DCBC7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFFA02752004DB3B005DCBC7 /* AppDelegate.swift */; };
+		EFFA027B2004DB3B005DCBC7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFFA02792004DB3B005DCBC7 /* Main.storyboard */; };
+		EFFA027D2004DB3B005DCBC7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFFA027C2004DB3B005DCBC7 /* Assets.xcassets */; };
+		EFFA02802004DB3B005DCBC7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFFA027E2004DB3B005DCBC7 /* LaunchScreen.storyboard */; };
+		EFFA02892004DD13005DCBC7 /* BrowseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFFA02872004DD13005DCBC7 /* BrowseViewController.swift */; };
+		EFFA028A2004DD13005DCBC7 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFFA02882004DD13005DCBC7 /* RootViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2219C51E2988AC253423896C /* Pods-UPnPDeviceBrowser.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UPnPDeviceBrowser.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UPnPDeviceBrowser/Pods-UPnPDeviceBrowser.debug.xcconfig"; sourceTree = "<group>"; };
+		738A0C0699DC83A38825C629 /* Pods-UPnPDeviceBrowser.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UPnPDeviceBrowser.release.xcconfig"; path = "Pods/Target Support Files/Pods-UPnPDeviceBrowser/Pods-UPnPDeviceBrowser.release.xcconfig"; sourceTree = "<group>"; };
+		B3D0287C5C6FA291CDF50EB0 /* Pods_UPnPDeviceBrowser.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UPnPDeviceBrowser.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFFA02722004DB3B005DCBC7 /* UPnPDeviceBrowser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UPnPDeviceBrowser.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFFA02752004DB3B005DCBC7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EFFA027A2004DB3B005DCBC7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EFFA027C2004DB3B005DCBC7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EFFA027F2004DB3B005DCBC7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EFFA02812004DB3B005DCBC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFFA02872004DD13005DCBC7 /* BrowseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BrowseViewController.swift; sourceTree = "<group>"; };
+		EFFA02882004DD13005DCBC7 /* RootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EFFA026F2004DB3B005DCBC7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7EDA9E31F4F54107347133B /* Pods_UPnPDeviceBrowser.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1745D45877D9B96BF2FD8F86 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B3D0287C5C6FA291CDF50EB0 /* Pods_UPnPDeviceBrowser.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		843747872639E9E77360523F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2219C51E2988AC253423896C /* Pods-UPnPDeviceBrowser.debug.xcconfig */,
+				738A0C0699DC83A38825C629 /* Pods-UPnPDeviceBrowser.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EFFA02692004DB3B005DCBC7 = {
+			isa = PBXGroup;
+			children = (
+				EFFA02742004DB3B005DCBC7 /* UPnPDeviceBrowser */,
+				EFFA02732004DB3B005DCBC7 /* Products */,
+				843747872639E9E77360523F /* Pods */,
+				1745D45877D9B96BF2FD8F86 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EFFA02732004DB3B005DCBC7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EFFA02722004DB3B005DCBC7 /* UPnPDeviceBrowser.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EFFA02742004DB3B005DCBC7 /* UPnPDeviceBrowser */ = {
+			isa = PBXGroup;
+			children = (
+				EFFA02752004DB3B005DCBC7 /* AppDelegate.swift */,
+				EFFA02882004DD13005DCBC7 /* RootViewController.swift */,
+				EFFA02872004DD13005DCBC7 /* BrowseViewController.swift */,
+				EFFA02792004DB3B005DCBC7 /* Main.storyboard */,
+				EFFA027C2004DB3B005DCBC7 /* Assets.xcassets */,
+				EFFA027E2004DB3B005DCBC7 /* LaunchScreen.storyboard */,
+				EFFA02812004DB3B005DCBC7 /* Info.plist */,
+			);
+			path = UPnPDeviceBrowser;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EFFA02712004DB3B005DCBC7 /* UPnPDeviceBrowser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFFA02842004DB3B005DCBC7 /* Build configuration list for PBXNativeTarget "UPnPDeviceBrowser" */;
+			buildPhases = (
+				A59A90A19E019F6F48190056 /* [CP] Check Pods Manifest.lock */,
+				EFFA026E2004DB3B005DCBC7 /* Sources */,
+				EFFA026F2004DB3B005DCBC7 /* Frameworks */,
+				EFFA02702004DB3B005DCBC7 /* Resources */,
+				8CBDBA0BC1B747579D4893A3 /* [CP] Embed Pods Frameworks */,
+				0ADFB0A55FB6B54436E54290 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UPnPDeviceBrowser;
+			productName = UPnPDeviceBrowser;
+			productReference = EFFA02722004DB3B005DCBC7 /* UPnPDeviceBrowser.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EFFA026A2004DB3B005DCBC7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = imamurh;
+				TargetAttributes = {
+					EFFA02712004DB3B005DCBC7 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = EFFA026D2004DB3B005DCBC7 /* Build configuration list for PBXProject "UPnPDeviceBrowser" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EFFA02692004DB3B005DCBC7;
+			productRefGroup = EFFA02732004DB3B005DCBC7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EFFA02712004DB3B005DCBC7 /* UPnPDeviceBrowser */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EFFA02702004DB3B005DCBC7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFFA02802004DB3B005DCBC7 /* LaunchScreen.storyboard in Resources */,
+				EFFA027D2004DB3B005DCBC7 /* Assets.xcassets in Resources */,
+				EFFA027B2004DB3B005DCBC7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0ADFB0A55FB6B54436E54290 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UPnPDeviceBrowser/Pods-UPnPDeviceBrowser-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8CBDBA0BC1B747579D4893A3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-UPnPDeviceBrowser/Pods-UPnPDeviceBrowser-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/upnpx/upnpx.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/upnpx.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UPnPDeviceBrowser/Pods-UPnPDeviceBrowser-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A59A90A19E019F6F48190056 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-UPnPDeviceBrowser-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EFFA026E2004DB3B005DCBC7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFFA02892004DD13005DCBC7 /* BrowseViewController.swift in Sources */,
+				EFFA02762004DB3B005DCBC7 /* AppDelegate.swift in Sources */,
+				EFFA028A2004DD13005DCBC7 /* RootViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EFFA02792004DB3B005DCBC7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EFFA027A2004DB3B005DCBC7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EFFA027E2004DB3B005DCBC7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EFFA027F2004DB3B005DCBC7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EFFA02822004DB3B005DCBC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EFFA02832004DB3B005DCBC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EFFA02852004DB3B005DCBC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2219C51E2988AC253423896C /* Pods-UPnPDeviceBrowser.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = UPnPDeviceBrowser/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.imamurh.UPnPDeviceBrowser;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EFFA02862004DB3B005DCBC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 738A0C0699DC83A38825C629 /* Pods-UPnPDeviceBrowser.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = UPnPDeviceBrowser/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.imamurh.UPnPDeviceBrowser;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EFFA026D2004DB3B005DCBC7 /* Build configuration list for PBXProject "UPnPDeviceBrowser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFFA02822004DB3B005DCBC7 /* Debug */,
+				EFFA02832004DB3B005DCBC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFFA02842004DB3B005DCBC7 /* Build configuration list for PBXNativeTarget "UPnPDeviceBrowser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFFA02852004DB3B005DCBC7 /* Debug */,
+				EFFA02862004DB3B005DCBC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EFFA026A2004DB3B005DCBC7 /* Project object */;
+}
